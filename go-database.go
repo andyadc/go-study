@@ -1,5 +1,18 @@
 package main
 
+/**
+Go-MySQL-Driver
+https://github.com/go-sql-driver/mysql
+go get github.com/go-sql-driver/mysql
+username:password@protocol(address)/dbname?param=value
+
+`
+import "database/sql"
+import _ "github.com/go-sql-driver/mysql"
+
+db, err := sql.Open("mysql", "user:password@/dbname")
+`
+*/
 import (
 	"database/sql"
 	"fmt"
